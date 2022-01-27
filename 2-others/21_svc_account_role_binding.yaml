@@ -1,0 +1,12 @@
+kind: ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1 
+metadata:
+  name: t8c-clusteradmin
+subjects:
+  - kind: ServiceAccount
+    name: t8c-operator
+    namespace: turbonomic
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: cluster-admin
