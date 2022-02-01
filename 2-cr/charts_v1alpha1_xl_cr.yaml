@@ -17,7 +17,7 @@ spec:
   #  imageUsername: turbouser
   #  imagePassword: turbopassword
     repository: turbonomic
-    tag: 8.4.3
+    tag: 8.3.4
     securityContext:
       fsGroup: 1000670000
     #externalIP: 10.0.2.15
