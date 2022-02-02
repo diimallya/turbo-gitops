@@ -97,7 +97,7 @@ spec:
 #    enabled: false
 #  xen:
 #    enabled: false
-#  instana:
-#    enabled: true
+  instana:
+    enabled: true
 #  jboss:
 #    enabled: false
