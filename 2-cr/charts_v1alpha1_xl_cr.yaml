@@ -17,16 +17,11 @@ spec:
   #  imageUsername: turbouser
   #  imagePassword: turbopassword
     repository: turbonomic
-    tag: 8.3.4
-    securityContext:
-      fsGroup: 1000670000
+    tag: 8.4.3
     #externalIP: 10.0.2.15
     #externalDbIP: 10.0.2.15
     #externalTimescaleDBIP: 10.0.2.15
     #enableExternalSecrets: true
-  ingress:
-    domain: >-
-      *.itzroks-2700027js0-xche7k-6ccd7f378ae819553d37d5f2ee142bd6-0000.us-south.containers.appdomain.cloud
   openshiftingress:
     enabled: true
 # Component selector - Probes
@@ -88,8 +83,8 @@ spec:
 #    enabled: false
 #  tomcat:
 #    enabled: false
-  jvm:
-    enabled: true
+#  jvm:
+#    enabled: true
 #  newrelic:
 #    enabled: true
 #  udt:
